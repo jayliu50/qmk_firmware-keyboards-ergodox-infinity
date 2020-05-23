@@ -742,13 +742,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 // player 1
-// move - wasd
-// pickup - lsft
-// chop/throw - lctrl
-// dash - lalt
-// emote - e
+// move - g up, v left, b down, f right
+// pickup - j
+// chop/throw - k
+// dash - m
+// emote - h
 //
-// player 3
+// player 2
 // move - g up, v left, b down, f right
 // pickup - j
 // chop/throw - k
@@ -757,27 +757,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 [OC] = LAYOUT_ergodox(
-//  /**/  ------------------   /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------    /**/
-    /**/  KC_ESC,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,                /**/
-    /**/  KC_NO,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,                /**/
-    /**/  KC_NO,             /**/  KC_NO,            /**/  KC_NO,              /**/  KC_NO,            /**/  KC_G,            /**/  KC_NO,            /**/                        /**/
-    /**/  KC_H,             /**/  KC_NO,            /**/  KC_NO,              /**/  KC_V,              /**/  KC_B,              /**/  KC_F,              /**/  KC_NO,                /**/
-    /**/  KC_M,             /**/  KC_K,              /**/  KC_J,              /**/  KC_NO,              /**/  KC_NO,              /**/                      /**/                        /**/
+//  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/  ------------------  /**/
+    /**/  KC_ESC,             /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_G,               /**/  KC_NO,              /**/                      /**/
+    /**/  KC_H,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_V,               /**/  KC_B,               /**/  KC_F,               /**/  KC_NO,              /**/
+    /**/  KC_M,               /**/  KC_K,               /**/  KC_J,               /**/  KC_NO,              /**/  KC_NO,              /**/                      /**/                      /**/
 
-    /**/                       /**/                      /**/                      /**/                      /**/                      /**/  KC_NO,              /**/  KC_NO,                /**/
-    /**/                       /**/                      /**/                      /**/                      /**/                      /**/                      /**/  KC_NO,                /**/
-    /**/                       /**/                      /**/                      /**/                      /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,                /**/
+    /**/                      /**/                      /**/                      /**/                      /**/                      /**/  KC_NO,              /**/  KC_NO,              /**/
+    /**/                      /**/                      /**/                      /**/                      /**/                      /**/                      /**/  KC_NO,              /**/
+    /**/                      /**/                      /**/                      /**/                      /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/
 
 
-    /**/  KC_NO,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  TO(PLVR),             /**/
-    /**/  KC_NO,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_W,               /**/  KC_E,              /**/  KC_NO,              /**/  TO(WIN),              /**/
-    /**/                       /**/  KC_NO,              /**/  KC_A,               /**/  KC_S,               /**/  KC_D,               /**/  KC_NO,              /**/  KC_NO,                /**/
-    /**/  KC_NO,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,                /**/
-    /**/                       /**/                      /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,                /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  TO(PLVR),           /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_Y,               /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  TO(WIN),            /**/
+    /**/                      /**/  KC_LBRC,            /**/  KC_U,               /**/  KC_RBRC,            /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_BSLS,            /**/  KC_BSLS,            /**/
+    /**/                      /**/                      /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO,              /**/  KC_MINS,            /**/  KC_EQL,             /**/
 
-    /**/  KC_LSFT,             /**/  KC_NO,              /**/                      /**/                      /**/                      /**/                      /**/                        /**/
-    /**/  KC_LCTL,             /**/                      /**/                      /**/                      /**/                      /**/                      /**/                        /**/
-    /**/  KC_LALT,             /**/  KC_NO,              /**/  KC_LALT             /**/                      /**/                      /**/                      /**/                        /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/                      /**/                      /**/                      /**/                      /**/                      /**/
+    /**/  KC_NO,              /**/                      /**/                      /**/                      /**/                      /**/                      /**/                      /**/
+    /**/  KC_NO,              /**/  KC_NO,              /**/  KC_NO               /**/                      /**/                      /**/                      /**/                      /**/
 ),
 
 
